@@ -8,9 +8,37 @@ body{
     padding:0;
 
 }
+.frontCard{
+background-image: url(images/bg-card-front.png);
+position: absolute;
+min-width: 26.5%;
+min-height: 25.2%;
+top:20%;
+left:10%;
+}
+.frontCard img{
+    margin: 6%;
+
+}
+#cardNumber{
+margin-left: auto;
+margin: 0;
+color:white;
+font-weight:500;
+font-size: 30px;
+letter-spacing: 3px;
+text-align:center;
+margin-top:10%
+}
+#cardName{
+    color:white;
+    font-size: 16px;
+    font-weight: lighter;
+    letter-spacing:1px;
+    margin-left:6.5%;
+}
 .formSectionBorder{
     width:70%;
-    border:2px solid red;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -22,14 +50,67 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    border:2px blue solid;
     height:40%;
     width:40%;
+}
+.formSection input{
+    height:12%;
 }
 .leftImage{
     width:30%;
 }
 input{
     height:20%;
-    border-radius: 20px;
+    border-radius: 13px;
+}
+label{
+    margin-left: 2px;
+}
+.botWrapper{
+    display:flex;
+    flex-direction: row;
+    height:20%;
+
+}
+.botWrapper input{
+    height:50%;
+
+}
+.botLeft{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    width:48%;
+}
+.botLeft label{
+    width:100%;
+    margin-left: 2px;
+}
+.botLeft input{
+width:45%;
+}
+.botRight{
+    width:48%;
+    margin-left: auto;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.botRight label{
+    width:100%;
+    margin-left: 2px;
+}
+.botRight input{
+    width:100%;
+}
+button{
+    height:15%;
+    width:99.99%;
+    background-color:hsl(278, 68%, 11%);
+    color:white;
+    font-size: 18px;
+    border-radius: 13px;
 }
