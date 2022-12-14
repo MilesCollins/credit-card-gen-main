@@ -44,6 +44,19 @@ left: 80%;
 color:white;
 letter-spacing: 2px;
 }
+#cardYr{
+    color:white;
+    position: absolute;
+    bottom:2%;
+    left:87.6%;
+    letter-spacing: 2px;
+}
+#slash{
+    color:white;
+    position:absolute;
+    bottom:2%;
+    left:85.3%
+}
 .backCard{
     position:absolute;
     top:50%;
