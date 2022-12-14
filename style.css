@@ -37,6 +37,25 @@ margin-top:10%
     letter-spacing:1px;
     margin-left:6.5%;
 }
+#cardExp{
+position: absolute;
+bottom: 2%;
+left: 80%;
+color:white;
+letter-spacing: 2px;
+}
+.backCard{
+    position:absolute;
+    top:50%;
+    left:17%;
+}
+.cvv{
+    position: absolute;
+    bottom:41%;
+    left:80%;
+    color: white;
+    letter-spacing: 3px;
+}
 .formSectionBorder{
     width:70%;
     display: flex;
@@ -63,8 +82,14 @@ input{
     height:20%;
     border-radius: 13px;
 }
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size:16px;
+}
 label{
+    font-size: 13px;
     margin-left: 2px;
+    color: hsl(278, 68%, 11%);
+    font-weight: lighter;
 }
 .botWrapper{
     display:flex;
