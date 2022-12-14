@@ -1,0 +1,35 @@
+
+body{
+    font-family: 'Space Grotesk', sans-serif;
+    display:flex;
+    height:100%;
+    flex-direction: row;
+    margin:0;
+    padding:0;
+
+}
+.formSectionBorder{
+    width:70%;
+    border:2px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+/* height:100%; */
+    flex-grow:1;
+}
+.formSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border:2px blue solid;
+    height:40%;
+    width:40%;
+}
+.leftImage{
+    width:30%;
+}
+input{
+    height:20%;
+    border-radius: 20px;
+}
