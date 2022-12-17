@@ -152,3 +152,27 @@ button{
     font-size: 18px;
     border-radius: 13px;
 }
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    margin:auto;
+    height:30vh;
+    width:25%;
+}
+section button{
+    height:20%;
+}
+section h1{
+    letter-spacing: 4px;
+    font-weight:lighter;
+}
+section p{
+    margin-bottom:10%;
+    color:hsl(279, 6%, 55%)
+}
+.hidden{
+    display:none;
+}

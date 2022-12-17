@@ -51,7 +51,13 @@
     <p class="cvv" id="cvc">000</p>
   </div>
 
-  <div class="formSectionBorder">
+  <section id="formComplete" class="hidden">
+<img src="images/icon-complete.svg" alt="">
+<h1>THANK YOU!</h1>
+<p>We've added your card details</p>
+<button>CONTINUE</button>
+  </section>
+  <div class="formSectionBorder" id="formId">
     <div class="formSection">
       <label for="frontCardName">CARDHOLDER NAME</label>
       <input type="text" id="frontCardName" placeholder="e.g Jane Appleseed">
@@ -68,7 +74,7 @@
           <input type="text" id="frontCardCvc" placeholder="e.g. 123">
         </div>
       </div>
-      <button>Confirm</button>
+      <button id="submitButton">Confirm</button>
     </div>
   </div>
 
